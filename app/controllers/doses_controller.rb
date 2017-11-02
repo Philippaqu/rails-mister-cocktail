@@ -21,13 +21,6 @@ class DosesController < ApplicationController
   def destroy
     @dose = Dose.find(params[:id])
     @dose.destroy
-
-
-    #@cocktail = Cocktail.find(params[:id])
-    #@dose = @cocktail.doses.find(params[:dose_id])
-
-
-    #@dose = Dose.find(params[:dose_id])
   end
 
   private
