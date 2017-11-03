@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+
+gem 'rest-client'
+gem 'json'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
